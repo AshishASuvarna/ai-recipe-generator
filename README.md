@@ -23,6 +23,7 @@ Uses Hugging Face inference API for model interaction
 1. Clone the repository
 
 git clone https://github.com/AshishASuvarna/ai-recipe-generator.git
+
 cd ai-recipe-generator
 
 2. Install dependencies
