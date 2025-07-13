@@ -1,12 +1,61 @@
-# React + Vite
+🧑‍🍳 AI Recipe Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple AI-powered web app that generates recipes based on the ingredients you have. Built using the Hugging Face Mixtral model and Vite.
 
-Currently, two official plugins are available:
+✨ Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Enter a list of ingredients
 
-## Expanding the ESLint configuration
+Get a full recipe with instructions and suggestions
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Lightweight UI with markdown-formatted output
+
+Uses Hugging Face inference API for model interaction
+
+🖼️ Screenshot
+
+![App Screenshot](https://github.com/user-attachments/assets/2e9d9d02-bfb6-4dad-9ad3-1b0be7951257)
+
+
+
+🚀 Getting Started
+
+1. Clone the repository
+
+git clone https://github.com/AshishASuvarna/ai-recipe-generator.git
+cd ai-recipe-generator
+
+2. Install dependencies
+
+npm install
+
+3. Set up environment variables
+
+Create a .env file in the root with the following:
+
+VITE_HF_ACCESS_TOKEN=your_huggingface_token_here
+
+✅ Never commit your actual .env file. Create a .env.example instead to show the required variables.
+
+4. Start the development server
+
+npm run dev
+
+Then open http://localhost:5173 in your browser.
+
+📦 Built With
+
+Vite
+
+Hugging Face Inference API
+
+Mixtral-8x7B-Instruct
+
+JavaScript / HTML / CSS
+
+
+
+🤛‍♂️ Author
+
+Ashish A Suvarna
+
